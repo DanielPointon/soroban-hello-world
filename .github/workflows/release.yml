@@ -11,6 +11,5 @@ jobs:
       release_description: 'Contract release'       # some boring placeholder text to attach
       relative_path: '["src/tiptap"]'  # relative path to your really awesome contract
       package: 'tiptap'                # package name to build
-      make_target: 'build-dependencies'             # make target to invoke
     secrets:  # the authentication token will be automatically created by GitHub
       release_token: ${{ secrets.GITHUB_TOKEN }}    # don't modify this line
