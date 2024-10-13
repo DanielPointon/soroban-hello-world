@@ -13,3 +13,6 @@ jobs:
       package: 'tiptap'                # package name to build
     secrets:  # the authentication token will be automatically created by GitHub
       release_token: ${{ secrets.GITHUB_TOKEN }}    # don't modify this line
+
+
+      
